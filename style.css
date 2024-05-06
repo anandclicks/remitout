@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+}
+.page-1 {
+    height: 100%;
+    background-image: url("https://themes.envytheme.com/tryo/wp-content/uploads/2022/11/banner-bg.jpg");
+    background-size: cover;
+}
+.page-1::after {
+    height: 100%;
+    width: 100%;
+    background-color: #110e0c88;
+    content: '';
+    top: 0;
+    position: absolute;
+}
+.topNavbar {
+    height:50px;
+    background-color: #110E0C;
+    z-index: 999;
+    position: relative;
+}
+.navbarMain {
+    height: 80px;
+    background-color: #110e0c5e;
+    position: relative;
+    z-index: 999;
+}
+.links li {
+    font-size: 18;
+}
+.box {
+    position: relative;
+    z-index: 999;
+}
+.box h1 {
+    font-size: 80px;
+}
+.maincontent{
+    height: calc(100% - 130px );
+}
+.money {
+    position: relative;
+}
+.money::after {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://themes.envytheme.com/tryo/wp-content/themes/tryo/assets/img/banner-image/circle.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:  "";
+}
+.vidoicon{
+    background: linear-gradient(to left , #EE0D73, #FE6506);
+}
+.togglenav {
+    height: 50px;
+    background-color: white;
+    position: relative;
+    z-index: 99;
+}
+.page-4 {
+    height: 100%;
+}
+.page4-left , .page4-right {
+    height: 100%;
+}
+.page4-right {
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 80%;
+}
+.page5{
+    height: 50%;
+}
+.page-6 {
+    background-color: #E5F6F0;
+    height: 100%;
+}
+.page5cardrow{
+    flex-wrap: nowrap;
+}
+.fiximage {
+    background-image: url("https://themes.envytheme.com/tryo/wp-content/uploads/2022/11/choose.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footer-area {
+    background-color: #070D13;
+    color: #fff;
+}
+footer li {
+    list-style-type: square;
+    color: #EE0979;
+    margin: 10px 0px;
+}
+
+.page6ringht {
+    background-image: url("https://themes.envytheme.com/tryo/wp-content/uploads/2022/11/working-people.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.page7  {
+    height: 75%;
+}

@@ -1,0 +1,58 @@
+/* Styles for extra small devices */
+* {
+  
+    box-sizing: border-box;
+}
+
+@media (max-width: 575px) { 
+    .maincontent .left {
+        justify-content: start;
+        align-items: start;
+    }
+    .topNavbar {
+        display: none;
+    }
+    .box h1 {
+        font-size: 37px;
+    }
+    .page-4 {
+        height: 130%;
+    }
+    .page4-left , .page4-right {
+        height: 35%;
+    }
+    .page4-right {
+        height: inherit;
+        padding: 0px 20px;
+        align-items: start;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .page5{
+        height: 123%;
+    }
+    .page5cardrow{
+        flex-wrap: wrap;
+    }
+    .page-6{
+        height: 150%;
+    }
+    .page6ringht {
+        height: 30%;
+    }
+    .page6-right{
+        height: 70%;
+    }
+    .page7 {
+        height: auto;
+    }
+}
+/* Styles for small devices */
+@media (min-width: 576px) {
+ 
+}
+ /* Styles for medium devices */
+@media (min-width: 768px) {
+ 
+}
